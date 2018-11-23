@@ -1,16 +1,26 @@
-body{
+.body{
     background-color: grey;
     align-content: center;
 }
 
-div{
+.div{
     background-color: whitesmoke;
-    padding: 20px 30px;
-    margin: 20px 30px;
+    width: 80%;
+    height: 50px;
     align-content: center;
+    display: block;
+    margin: 0px 10% 0px 10%;
 }
 
 #p{
     align-content: center;
-    font-family: Times New Roman;
+    font-family: Times;
+}
+
+.section{
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    margin: 10px 30px;
+    align-content: center;
+    display: inline;
 }
