@@ -7,9 +7,9 @@
     background-color: whitesmoke;
     width: 80%;
     height: 50px;
-    align-content: center;
+    text-align: center;
     display: block;
-    margin: 0px 10% 0px 10%;
+    margin: 10px 10% 10px 10%;
 }
 
 #p{
@@ -17,10 +17,36 @@
     font-family: Times;
 }
 
-.section{
+.section1{
     background-color: whitesmoke;
-    padding: 20px 30px;
-    margin: 10px 30px;
+    padding: 60px 30px;
+    margin: 0 1% 0 10%;
     align-content: center;
     display: inline;
+    float: left;
+    width: 40%;
+    position: relative;
 }
+
+.section2{
+    background-color: whitesmoke;
+    padding: 60px 30px;
+    margin: 0 10% 0 1%;
+    align-content: center;
+    display: inline;
+    float: right;
+    width: 30%;
+    position: relative;
+}
+
+.footer{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    display: block;
+    margin: 10px 10% 10px 10%;
+    display: block;
+    z-index: 2;
+}
+
