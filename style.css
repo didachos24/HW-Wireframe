@@ -4,24 +4,32 @@
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: auto;
 }
 
-header, nav, section, aside, footer{
+.div{
     background: #ebebeb;
-    width: 495px;
+    width: 90%;
+    text-align: center;
+    position: relative;
 }
 
-article {
+#article {
     color: #ebebeb;
     background: #777;
+    position: relative;
 }
 
-h1, p {
+#h1, #p {
     color: #777;
     background: #ebebeb;
 }
 
-section, aside{
+.section, .aside{
     float: left;
     display: inline;
+    width: 40%;
+    background: #ebebeb;
+    margin:1%;
+    clear: right;
 }
